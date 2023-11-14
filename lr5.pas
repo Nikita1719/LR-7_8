@@ -4,10 +4,10 @@ var
   l: char;
   i: integer;
 begin
-  o := 'Oleg Mayami';
+  o := 'Sasha_Mashka';
   l := o[length(o)];
   writeln('Последний: ', l);
-  writeln('Matching character positions:');
+  writeln('Место');
   for i := 1 to length(o) do
   begin
     if o[i] = l then

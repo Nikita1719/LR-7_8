@@ -3,7 +3,7 @@ var
   o: string;
   i: integer;
 begin
-  o := 'Oleg Mayami';
+  o := 'Sasha_Mashka';
   for i := 3 to length(o) step 3 do
   begin
     writeln(o[i]);

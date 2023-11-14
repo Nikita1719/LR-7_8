@@ -2,7 +2,7 @@
 var
   o: string;
 begin
-  o := 'fhdgh';
+  o := 'abcaa';
   if Copy(o, 1, 3) = 'abc' then
   begin
     o := 'www' + Copy(o, 4, Length(o)-3);
