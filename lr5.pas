@@ -4,7 +4,7 @@ var
   l: char;
   i: integer;
 begin
-  o := 'Sasha_Mashka';
+  readln(o);
   l := o[length(o)];
   writeln('Последний: ', l);
   writeln('Место');

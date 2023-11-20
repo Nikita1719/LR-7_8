@@ -4,7 +4,8 @@ var
   m: string;
   i: integer;
 begin
-  o := 'xabcyxabczxabc';
+ writeln('Введите текст');
+ readln(o);
   m:= '';
   i := 1;
   while i <= Length(o) do
